@@ -1,0 +1,18 @@
+{
+  "name": "mandelbrot-assemblyscript",
+  "main": "index.js",
+  "scripts": {
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild:releaseNoOptimize": "asc assembly/index.ts --target releaseNoOptimize",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release && npm run asbuild:releaseNoOptimize",
+    "serve": "http-server"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "0.19.23"
+  },
+  "devDependencies": {
+    "assemblyscript": "0.19.23",
+    "http-server": "^14.0.0"
+  }
+}

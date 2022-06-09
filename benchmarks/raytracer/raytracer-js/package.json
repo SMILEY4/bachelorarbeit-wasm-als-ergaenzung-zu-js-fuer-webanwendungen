@@ -1,0 +1,14 @@
+{
+  "name": "raytracer-js",
+  "version": "1.0.0",
+  "description": "raytracer in pure javascript",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}

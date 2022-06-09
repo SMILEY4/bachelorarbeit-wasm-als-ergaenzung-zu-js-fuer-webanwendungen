@@ -1,0 +1,10 @@
+{
+  "name": "binary-heap-vanilla-js",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}

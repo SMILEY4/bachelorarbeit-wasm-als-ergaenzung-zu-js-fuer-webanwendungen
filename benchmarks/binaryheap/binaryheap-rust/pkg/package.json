@@ -1,0 +1,15 @@
+{
+  "name": "binaryheap-rust",
+  "collaborators": [
+    "Lukas Ruegner <ruegnerlukas@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "binaryheap_rust_bg.wasm",
+    "binaryheap_rust.js",
+    "binaryheap_rust.d.ts"
+  ],
+  "module": "binaryheap_rust.js",
+  "types": "binaryheap_rust.d.ts",
+  "sideEffects": false
+}

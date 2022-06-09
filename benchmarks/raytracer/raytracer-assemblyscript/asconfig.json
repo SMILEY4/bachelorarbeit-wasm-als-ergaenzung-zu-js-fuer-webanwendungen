@@ -1,0 +1,44 @@
+{
+  "targets": {
+    "debug": {
+      "binaryFile": "build/debug.wasm",
+      "sourceMap": true,
+      "debug": true
+    },
+    "release": {
+      "binaryFile": "build/release.wasm",
+      "sourceMap": false,
+      "optimize": true,
+      "optimizeLevel": 3,
+      "converge": true,
+      "noAssert": true
+    },
+    "releaseNoRuntime": {
+      "binaryFile": "build/releaseNoRT.wasm",
+      "sourceMap": false,
+      "optimize": true,
+      "optimizeLevel": 3,
+      "converge": true,
+      "noAssert": true,
+      "runtime": "stub"
+    },
+    "releaseNoOptimize": {
+      "binaryFile": "build/releaseNoOptimize.wasm",
+      "sourceMap": false,
+      "converge": true,
+      "noAssert": true
+    },
+    "releaseSize": {
+      "binaryFile": "build/releaseSize.wasm",
+      "sourceMap": false,
+      "optimize": "Osize",
+      "shrinkLevel": 2,
+      "converge": true,
+      "noAssert": true
+    }
+  },
+  "options": {
+    "importMemory": true,
+    "trapMode": "clamp"
+  }
+}

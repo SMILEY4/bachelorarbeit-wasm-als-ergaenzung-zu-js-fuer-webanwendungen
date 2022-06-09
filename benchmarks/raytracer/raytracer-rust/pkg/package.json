@@ -1,0 +1,15 @@
+{
+  "name": "raytracer-rust",
+  "collaborators": [
+    "Lukas Ruegner <ruegnerlukas@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "raytracer_rust_bg.wasm",
+    "raytracer_rust.js",
+    "raytracer_rust.d.ts"
+  ],
+  "module": "raytracer_rust.js",
+  "types": "raytracer_rust.d.ts",
+  "sideEffects": false
+}

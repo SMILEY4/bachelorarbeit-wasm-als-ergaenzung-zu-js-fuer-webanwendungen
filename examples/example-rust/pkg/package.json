@@ -1,0 +1,15 @@
+{
+  "name": "example-rust",
+  "collaborators": [
+    "Lukas Ruegner"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "example_rust_bg.wasm",
+    "example_rust.js",
+    "example_rust.d.ts"
+  ],
+  "module": "example_rust.js",
+  "types": "example_rust.d.ts",
+  "sideEffects": false
+}
